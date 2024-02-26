@@ -25,7 +25,7 @@ app.get('/countries', (req, res) => {
             return;
         }
         res.json(JSON.parse(data));
-    });
+    });0
 });
 
 // Endpoint to get data from LazadaProductData.json
